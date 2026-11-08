@@ -8,8 +8,9 @@ $listener.Prefixes.Add($prefix)
 try {
     $listener.Start()
     Write-Host "==========================================================" -ForegroundColor Green
-    Write-Host "   FaceCheck AI Server is Running!" -ForegroundColor Cyan
-    Write-Host "   Open in Browser: http://localhost:$port" -ForegroundColor Yellow
+    Write-Host "   AI Vision Projects Server is Running!" -ForegroundColor Cyan
+    Write-Host "   👤 FaceCheck AI:  http://localhost:$port/index.html" -ForegroundColor Yellow
+    Write-Host "   🖐️ SignSpeak AI:  http://localhost:$port/sign.html" -ForegroundColor Yellow
     Write-Host "   Press Ctrl+C to stop the server" -ForegroundColor Gray
     Write-Host "==========================================================" -ForegroundColor Green
     
